@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "748109609087",
+    "firebase_url": "https://chatapp-398e2.firebaseio.com",
+    "project_id": "chatapp-398e2",
+    "storage_bucket": "chatapp-398e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748109609087:android:7127b5f9cca10256",
+        "android_client_info": {
+          "package_name": "com.example.asus.franchiseez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748109609087-8alv0pls3seb3r4ktses34vq0iqnb09a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.franchiseez",
+            "certificate_hash": "fab3280f5c0ffe80b805843c849d3bda82cc7965"
+          }
+        },
+        {
+          "client_id": "748109609087-hop2qkp3r0ge21c0fgq2rsrteps814sj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGEnktTiHHd4xXv5d7PjVS47TRUdYODtA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748109609087-hop2qkp3r0ge21c0fgq2rsrteps814sj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

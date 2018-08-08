@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/cardutama"
+    android:layout_marginLeft="15dp"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/image1"
+            />
+
+        <TextView
+            android:id="@+id/title_card"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Pasco"
+            android:layout_below="@id/image"
+            android:fontFamily="Roboto-Black"
+            android:textColor="#000000"
+            android:textSize="15dp"
+
+            />
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_card"
+            android:layout_marginTop="4dp"
+            android:text="Rp 7.000.000"
+            android:textSize="14dp"
+            android:textColor="#B71C1C"
+            android:textStyle="bold"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/lystar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/harga"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/hitrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hitrate "
+                android:layout_marginTop="3dp"
+                android:textSize="12sp"
+                />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:padding="0dp"
+                android:src="@mipmap/ic_star5" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:padding="0dp"
+                android:src="@mipmap/ic_start5"
+                android:layout_marginLeft="-15dp"
+                />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:padding="0dp"
+                android:src="@mipmap/ic_star5"
+                android:layout_marginLeft="-15dp"
+                />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:padding="0dp"
+                android:src="@mipmap/ic_star5"
+                android:layout_marginLeft="-15dp"
+                />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:padding="0dp"
+                android:src="@mipmap/ic_star5"
+                android:layout_marginLeft="-15dp"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

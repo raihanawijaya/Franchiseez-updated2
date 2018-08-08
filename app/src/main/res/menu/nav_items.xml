@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@mipmap/outline_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_transaksi"
+        android:icon="@mipmap/outline_notifications_black_24dp"
+        android:title="Transaksi" />
+
+    <item
+        android:id="@+id/nav_koleksi"
+        android:icon="@mipmap/outline_collections_bookmark_black_24dp"
+        android:title="Koleksi" />
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@mipmap/outline_person_black_24dp"
+        android:title="Account" />
+</menu>

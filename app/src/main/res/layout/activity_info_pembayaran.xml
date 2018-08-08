@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoPembayaranActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_info_pembayaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/arrow_back_top"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_back_toolbar_rekomendasi"
+                android:paddingLeft="-10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/arrow_back_top"
+                android:text="Info pembayaran"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <!--    <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcv_opsiPengiriman"
+            android:layout_below="@+id/rlTitleJasaKirim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/card_opsi_pengiriman">
+
+
+        </android.support.v7.widget.RecyclerView>-->
+
+    <LinearLayout
+        android:layout_below="@+id/toolbar_info_pembayaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadows">
+
+            <TextView
+                android:id="@+id/tvJasaJneReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Total Pembayaran"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvJasaJneReg"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTotalPembayaran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:text="Rp122.000" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadows">
+
+            <TextView
+                android:id="@+id/tvJasaGoSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="GO-SEND"/>
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:id="@+id/tvTarifJasaGosend"
+                android:layout_toRightOf="@id/tvJasaGoSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/yellow"
+                android:text="Rp49.000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvJasaGoSend"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diterima dalam "/>
+
+                <TextView
+                    android:id="@+id/tvWaktuKirimGosend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1-2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" hari"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivCheckOption2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="invisible"
+                android:src="@drawable/ic_check" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
